@@ -16,12 +16,12 @@ const Navbar = () => {
         <li><a href="#ourTeam" aria-label="go to Our-Team section link">Our Team</a></li>
         <li><a href="#contactUs" aria-label="go to Contact-us section link">Contact Us</a></li>
       </ul>
-      <button className="md:hidden text-base-text" onClick={()=> setShowNavigation(!showNavigation)} >{showNavigation ? <X />: <ListFilter />}</button>
-      <button className="hidden md:block bg-base-text active:outline-base-text active:outline-1 active:bg-base-text/80 focus:bg-base-text/80 text-base px-4 py-2 rounded-md text-sm" >Make Appointment</button>
+      <button aria-label="toggle navigation" className="md:hidden text-base-text" onClick={()=> setShowNavigation(!showNavigation)} >{showNavigation ? <X />: <ListFilter />}</button>
+      <button aria-label="book an Appointment" className="hidden md:block bg-base-text active:outline-base-text active:outline-1 active:bg-base-text/80 focus:bg-base-text/80 text-base px-4 py-2 rounded-md text-sm" >Make Appointment</button>
     </nav>
       <ul className={`${showNavigation ? 'translate-x-0' : 'hidden -translate-x-full'} 
-        flex transition duration-400 ease-in fixed h-screen top-16 px-5 bg-white py-5 left-0 flex-col
-        fixed text-base gap-2 w-2/3 max-w-[300px] shadow-[1px_0px_1px_rgba(1,1,1,0.3)]
+        flex transition duration-400 ease-in fixed h-screen top-16 px-5 bg-base-text py-5 left-0 flex-col
+        fixed top-0 text-base gap-2 w-2/3 max-w-[300px] shadow-[1px_0px_1px_rgba(1,1,1,0.3)]
         *:py-2  *:rounded-md *:text-black/90 *:hover:text-base transition ease-out
         `} >
         <li><a href="#home" aria-label="go to Home section link">Home</a></li>
@@ -29,6 +29,7 @@ const Navbar = () => {
         <li><a href="#services" aria-label="go to Our-Medical-Services section link">Services</a></li>
         <li><a href="#ourTeam" aria-label="go to Our-Team section link">Our Team</a></li>
         <li><a href="#contactUs" aria-label="go to Contact-us section link">Contact Us</a></li>
+        <li><button aria-label="book an Appointment" className="bg-base/80 w-full active:outline-base/80 active:outline-1 active:bg-base/80 focus:bg-base text-base-text px-4 py-3 rounded-md text-sm" >Make Appointment</button></li>
       </ul>
       
     </>

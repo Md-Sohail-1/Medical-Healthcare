@@ -13,7 +13,7 @@ const AboutSection = () => {
         <div className="px-2 w-full h-full" >
           <img src="https://assets.e-konomista.pt/uploads/2021/02/consulta-medico--375x280.jpg"
             className="object-cover aspect-square rounded-xl"
-            alt=""
+            alt="About us section image"
             height="100%"
             width="100%"
           />

@@ -6,13 +6,13 @@ const OurTeamCard = ({name, specialization, image}) => {
       <img
         src={image} 
         alt={`${name} doctor's image`}
-        height=""
-        width=""
+        height="100%"
+        width="100%"
         className="aspect-video object-cover object-top w-full rounded-tl-xl rounded-tr-xl"
       />
       <div className="px-2 py-4" >
         <h4 className="text-center leading-6" >{name}</h4>
-        <p className="text-center leading-4 text-black/80" >{specialization}</p>
+        <p className="text-center leading-6 text-black/80" >{specialization}</p>
       </div>
     </div>
   )
