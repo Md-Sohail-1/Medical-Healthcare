@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+*{
+  scroll-behavior: smooth;
+}
+@layer base {
+  h1{
+    font-size: clamp(2rem, 3.125rem, 6rem);
+    font-family: Lexend, Sans-Serif;
+    font-weight: 400;
+  }
+  h2{
+    font-size: clamp(1.5rem, 2rem, 3.75rem);
+    font-family: Lexend, Sans-Serif;
+    font-weight: 600;
+  }
+  h3{
+    font-size: clamp(1.5rem, 1.75rem, 3rem);
+    font-family: Lexend, Sans-Serif;
+    font-weight: 600
+  }
+  h4{
+    font-size: clamp(1.125rem, 1.25rem, 2.125rem);
+    font-family: Lexend, Sans-Serif;
+    font-weight: 600
+  }
+  p{
+    font-size: clamp(0.875rem, 1.125rem, 1.25rem);
+    font-family: Molengo, Sans-Serif;
+    font-weight: 500;
+    line-height: 1.75rem;
+    margin: 8px 0px;
+  }
+  span{
+    font-size: clamp(0.875rem, 1rem, 1.125rem);
+    font-family: Molengo, Sans-Serif;
+    font-weight: 500;
+  }
+  li{
+    font-family: Lexend, Sans-Serif;
+    font-weight: 300;
+  }
+  li:hover{
+    font-weight: 500;
+  }
+  button{
+    font-size: clamp(0.825rem, 0.925rem, 1.25rem);
+    font-family: Lexend, Sans-Serif;
+    font-weight: 600;
+  }
+  b{
+    font-size: 5rem;
+  }
+  a, li{
+    transition: ease-in 0.2s;
+  }
+  a:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+}
+
+em{
+  color: rgb(00,50,50);
+}
+
+@theme {
+  --font-heading: 700;
+  --color-primary: #005F78;
+  --color-base: #0041FF;
+  --color-black: rgb(0,0,0);
+  --color-base-text: rgba(255,255,250);
+  
+}
