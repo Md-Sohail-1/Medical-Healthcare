@@ -26,8 +26,8 @@ const OurTeamSection = () => {
   
   
   return (
-    <section id="ourTeam" className="pt-16 md:pt-4 md:mt-10 mt-4" >
-      <div className="px-2 md:px-12 max-w-[1440px] mx-auto" >
+    <section id="ourTeam" className="pt-16 w-screen overflow-x-hidden md:mt-10 mt-4" >
+      <div className="px-2 md:px-12 max-w-360  mx-auto" >
         <h2 className="text-center leading-10 mb-2" >Our Team</h2>
         <p className="px-3 text-center text-black/60 pb-6 mt-0">Our team consists of qualified and licensed medical professionals who believe in ethical healthcare and patient education.</p>
         <div className="px-3 gap-3 flex flex-wrap md:nowrap" >
