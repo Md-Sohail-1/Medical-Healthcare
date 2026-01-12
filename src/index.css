@@ -3,32 +3,37 @@
 *{
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 @layer base {
   h1{
-    font-size: clamp(2rem, 3.125rem, 6rem);
+    font-size: min(10vw, 4rem);
     font-family: Lexend, Sans-Serif;
     font-weight: 400;
   }
   h2{
-    font-size: clamp(1.5rem, 2rem, 3.75rem);
+    font-size: min(8vw, 2.5rem);
     font-family: Lexend, Sans-Serif;
     font-weight: 600;
   }
   h3{
-    font-size: clamp(1.125rem, 1.25rem, 1.725rem);
+    font-size: min(7vw, 1.35rem);
     font-family: Lexend, Sans-Serif;
     font-weight: 600
   }
   h4{
-    font-size: clamp(1rem, 1.125rem, 1.5rem);
+    font-size: min(6vw, 1.125rem);
     font-family: Lexend, Sans-Serif;
     font-weight: 600
   }
   p{
-    font-size: clamp(0.875rem, 1.125rem, 1.25rem);
+    font-size: min(6vw, 1.15rem);
     font-family: Molengo, Sans-Serif;
     font-weight: 500;
-    line-height: 1.75rem;
+    line-height: 2rem;
     margin: 8px 0px;
   }
   span{

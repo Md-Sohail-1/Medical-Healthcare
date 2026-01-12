@@ -8,8 +8,8 @@ const Navbar = () => {
   
   return (
     <>
-    <nav className="backdrop-blur-xl mix-blend-lighten bg-black w-screen z-50 fixed top-0 left-0" >
-      <div className='max-w-360 mx-auto flex h-16 items-center justify-between px-5 md:px-15'>
+    <nav className="max-w-screen backdrop-blur-xl mix-blend-lighten bg-black w-screen z-50 fixed top-0 left-0" >
+      <div className=' mx-auto flex h-16 items-center justify-between px-5 md:px-15'>
       <Logo />
       <ul className="gap-6 hidden md:flex text-base-text mix-blend-none" >
         <li><a href="#about" aria-label="go to About section link">About</a></li>
@@ -23,7 +23,7 @@ const Navbar = () => {
     </nav>
       <ul className={`${showNavigation ? 'translate-x-0' : 'hidden -translate-x-full'} 
         flex transition duration-400 ease-in h-screen top-16 px-5 bg-base-text py-5 left-0 flex-col
-        fixed text-base gap-2 w-2/3 max-w-[300px] shadow-[1px_0px_1px_rgba(1,1,1,0.3)]
+        fixed text-base gap-2 w-2/3 max-w-75 shadow-[1px_0px_1px_rgba(1,1,1,0.3)]
         *:py-2  *:rounded-md *:text-black/90 *:hover:text-base
         `} >
         <li><a href="#home" aria-label="go to Home section link">Home</a></li>
