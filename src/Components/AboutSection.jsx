@@ -12,7 +12,9 @@ const AboutSection = () => {
           <p>We are a newly established healthcare service committed to providing reliable medical consultations, preventive care, and guidance you can trust. Your health, privacy, and comfort always come first.</p>
         </div>
         <div className="px-2 w-full h-full md:min-w-1/3" >
-          <img src="https://assets.e-konomista.pt/uploads/2021/02/consulta-medico--375x280.jpg"
+          <img 
+            loading='lazy'
+            src="https://assets.e-konomista.pt/uploads/2021/02/consulta-medico--375x280.jpg"
             className="object-cover aspect-square rounded-xl"
             alt="About us section image"
             height="100%"

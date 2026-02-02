@@ -2,7 +2,7 @@ import React from 'react'
 
 const OurTeamCard = ({name, specialization, image}) => {
   return (
-    <div className="flex  flex-col border border-base/10 rounded-xl overflow-x-hidden" >
+    <div className="flex  flex-col border border-base/10 shadow-[0px_0px_2px_rgba(1,1,1,0.1)] rounded-xl overflow-x-hidden" >
       <img
         src={image} 
         alt={`${name} doctor's image`}

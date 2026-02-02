@@ -66,13 +66,14 @@
 }
 
 em{
-  color: rgb(00,50,50);
+  color: rgb(12, 63, 114);
+  color: rgb(0, 65, 255);
 }
 
 @theme {
   --font-heading: 700;
-  --color-primary: #005F78;
-  --color-base: #0041FF;
+  --color-primary: rgb(12, 63, 114);
+  --color-base: rgb(0, 65, 255);
   --color-black: rgb(0,0,0);
   --color-base-text: rgba(255,255,250);
   

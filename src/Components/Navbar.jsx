@@ -21,8 +21,8 @@ const Navbar = () => {
       <button aria-label="book an Appointment" className="cursor-pointer hidden md:block bg-base-text active:outline-base-text active:outline-1 active:bg-base-text/80 hover:bg-base-text/90 text-base px-4 py-2 rounded-md text-sm" >Make Appointment</button>
       </div>
     </nav>
-      <ul className={`${showNavigation ? 'translate-x-0' : 'hidden -translate-x-full'} 
-        flex transition duration-400 ease-in h-screen top-16 px-5 bg-base-text py-5 left-0 flex-col
+      <ul className={`${showNavigation ? 'translate-x-0 flex' : 'hidden  -translate-x-full'} 
+        transition duration-400 ease-in h-screen top-16 px-5 bg-base-text py-5 left-0 flex-col
         fixed text-base gap-2 w-2/3 max-w-75 shadow-[1px_0px_1px_rgba(1,1,1,0.3)]
         *:py-2  *:rounded-md *:text-black/90 *:hover:text-base
         `} >

@@ -12,15 +12,12 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div className=''>
-        
       <LandingSection />
       <AboutSection />
       <ServiceSection />
       <OurTeamSection />
       <ContactSection />
       <Footer />
-      </div>
     </>
   )
 }
